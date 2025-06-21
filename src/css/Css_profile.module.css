@@ -1,0 +1,20 @@
+.heading{
+    color: aqua;
+}
+
+.img{
+    box-shadow: 3px 3px 4px black;
+    border-radius: 20px;
+}
+.cards{
+    border: 2px solid lightgreen;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px lightseagreen;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    justify-items: center;
+}
+.cardtext{
+    color: lightcoral;
+}
