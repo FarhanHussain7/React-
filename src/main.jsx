@@ -35,9 +35,16 @@ import UseActionState from './O34_UseActionState_Hook.jsx'
 import UseID from './O35_UseID_hook.jsx'
 import CreateContext from './O37_Context_API.jsx'
 import Customhook from './O38_Custom_Hooks.jsx'
-
+import Router_React from './O39_React_Router.jsx'
+import RouterReact from './O39_React_Router.jsx'
+import {BrowserRouter} from 'react-router'
+import BrowserRou from './O40_NavBar.jsx'
+import PageNotFound from './O41_404_pageNotFound.jsx'
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Customhook/>
-  </StrictMode>,
+ 
+ <BrowserRouter>
+ <StrictMode>
+    <PageNotFound/>
+  </StrictMode>
+  </BrowserRouter>,
 )

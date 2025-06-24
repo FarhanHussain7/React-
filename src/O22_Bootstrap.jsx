@@ -23,6 +23,7 @@ function BootStrap(){
             <Alert variant="primary">Alert Bootstrap</Alert>
             <Alert variant="success">Alert Bootstrap</Alert>
             <Alert variant="dark">Alert Bootstrap</Alert>
+            
         </div>
     )
 }
