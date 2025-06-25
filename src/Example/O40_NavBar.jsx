@@ -1,8 +1,9 @@
-import { Link } from "react-router"
+import { Link, Outlet } from "react-router"
 import './header.css'
 
 function NavBar(){
     return(
+        <div  >
         <div className="header">
             <div>
                 <Link className="link" to="/"><h3>Logo</h3></Link>
@@ -21,8 +22,13 @@ function NavBar(){
                 <li>
         <Link className="link" to="/help">Help</Link>
                 </li>
+                 <li>
+        <Link className="link" to="/collage">Collage</Link>
+                </li>
             </ul>
         </div>
+        </div>
+        <Outlet/>
         </div>
     )
 }

@@ -40,11 +40,15 @@ import RouterReact from './O39_React_Router.jsx'
 import {BrowserRouter} from 'react-router'
 import BrowserRou from './O40_NavBar.jsx'
 import PageNotFound from './O41_404_pageNotFound.jsx'
+import Collage from './Collage.jsx'
+import NestedRout from './O42_Nested_Routing.jsx'
+import CollageDetails from './Example/O42_Collage.jsx'
+import LayoutIndex from './O43_Layout_and_Index_Routes.jsx'
 createRoot(document.getElementById('root')).render(
  
  <BrowserRouter>
  <StrictMode>
-    <PageNotFound/>
+    <LayoutIndex/>
   </StrictMode>
   </BrowserRouter>,
 )
