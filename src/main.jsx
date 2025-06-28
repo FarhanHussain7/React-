@@ -44,11 +44,18 @@ import Collage from './Collage.jsx'
 import NestedRout from './O42_Nested_Routing.jsx'
 import CollageDetails from './Example/O42_Collage.jsx'
 import LayoutIndex from './O43_Layout_and_Index_Routes.jsx'
+import Prefix from './O44_Prefix_Rout.jsx'
+import DynamicRout from './O45_Dynamic_Route.jsx'
+import Optioanl from './O46_Optional_Segment.jsx'
+import ContactForm from './O47_Email_sending.jsx'
+import NavBar from './O48_NavLink.jsx'
+import NavBarLinkProcess from './O48_NavLink.jsx'
+import API from './O49_API_GET_method.jsx'
 createRoot(document.getElementById('root')).render(
  
  <BrowserRouter>
  <StrictMode>
-    <LayoutIndex/>
+    <API/>
   </StrictMode>
   </BrowserRouter>,
 )

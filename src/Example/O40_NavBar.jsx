@@ -17,13 +17,19 @@ function NavBar(){
         <Link className="link" to="/about">About</Link>
                 </li>
                 <li>
-        <Link className="link" to="/login">Login</Link>
+        <Link className="link" to="/user/login">Login</Link>
                 </li>
                 <li>
-        <Link className="link" to="/help">Help</Link>
+        <Link className="link" to="/in/help">Help</Link>
                 </li>
                  <li>
         <Link className="link" to="/collage">Collage</Link>
+                </li>
+                 <li>
+        <Link className="link" to="/userlist">User</Link>
+                </li>
+                <li>
+        <Link className="link" to="/userlist">list</Link>
                 </li>
             </ul>
         </div>

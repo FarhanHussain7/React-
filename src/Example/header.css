@@ -28,3 +28,27 @@
     font-size: 20px;
     margin-right: 10px;
 }
+
+.active{
+    font-weight: bold;
+}
+
+/* 49 - API css */
+
+.user-list{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 0;
+    padding: 10px;
+}
+
+.user-list2{
+    font: bold;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 0;
+    padding: 10px;
+}
