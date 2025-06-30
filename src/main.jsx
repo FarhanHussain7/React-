@@ -51,11 +51,13 @@ import ContactForm from './O47_Email_sending.jsx'
 import NavBar from './O48_NavLink.jsx'
 import NavBarLinkProcess from './O48_NavLink.jsx'
 import API from './O49_API_GET_method.jsx'
+import Loader from './O50_API_Loader.jsx'
+import RoutePagesAPI from './O51_Routes_Pages_API.jsx'
 createRoot(document.getElementById('root')).render(
  
  <BrowserRouter>
  <StrictMode>
-    <API/>
+    <RoutePagesAPI/>
   </StrictMode>
   </BrowserRouter>,
 )
