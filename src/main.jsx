@@ -53,11 +53,14 @@ import NavBarLinkProcess from './O48_NavLink.jsx'
 import API from './O49_API_GET_method.jsx'
 import Loader from './O50_API_Loader.jsx'
 import RoutePagesAPI from './O51_Routes_Pages_API.jsx'
+import DeletePagesAPI from './O52_Delete_API.jsx'
+import UpdatePagesAPI from './O53_PUT_API.jsx'
+import Validate from './O54_Validation.jsx'
 createRoot(document.getElementById('root')).render(
  
  <BrowserRouter>
  <StrictMode>
-    <RoutePagesAPI/>
+    <Validate/>
   </StrictMode>
   </BrowserRouter>,
 )

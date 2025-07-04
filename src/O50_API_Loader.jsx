@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react";
-
+import { use, useEffect, useState } from "react";
+import { useNavigate } from "react-router"; 
 import './Example/header.css';
 import { set } from "lodash";
 function Loader() {
 // To see the Loader You have to go to inscpect mode / network / make network to 3g
     const [loading,setloading] =useState(false);
     const [LoadData, setLoadData] = useState([]);
-
+    const NavigateTo = useNavigate();
     // useEffect(()=>{
     //     APILoader();
     // },[])            
@@ -25,6 +25,24 @@ function Loader() {
     setloading(false);
     }
 
+
+    const deleteuser = async(id)=>{
+        const url = `http://localhost:3000/users/${id}`; // Replace with your API endpoint
+        let response = await fetch(url, {
+            method: 'DELETE',
+        });
+        response = await response.json();
+        console.log(response);
+        if(response){
+            alert("User Deleted Successfully");
+            APILoader(); // Reload the data after deletion
+        }
+    }
+
+    const edituser = (id)=>{
+        // Navigate to the edit page with the user ID
+        NavigateTo(`/edit/${id}`);
+    }
 
   return (
     <div className="loader">
@@ -48,6 +66,9 @@ function Loader() {
                 <li>{item.name}</li>
                 <li>{item.age}</li>
                 <li>{item.email}</li>
+                <li><button onClick={()=>deleteuser(item.id)}>Delete</button>
+                    <button onClick={()=>edituser(item.id)}>Edit</button>
+                </li>
             </ul>
                 </div>
 
