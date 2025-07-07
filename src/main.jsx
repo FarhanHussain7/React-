@@ -56,11 +56,15 @@ import RoutePagesAPI from './O51_Routes_Pages_API.jsx'
 import DeletePagesAPI from './O52_Delete_API.jsx'
 import UpdatePagesAPI from './O53_PUT_API.jsx'
 import Validate from './O54_Validation.jsx'
+import ValidateUser from './O55_Validation_UseActionState.jsx'
+import Reducer from './O56_UseReducer.jsx'
+import LazyLoading from './O57_Lazy_Loading.jsx'
+import UseAPI from './O58_UseAPI.jsx'
 createRoot(document.getElementById('root')).render(
  
  <BrowserRouter>
  <StrictMode>
-    <Validate/>
+    <UseAPI/>
   </StrictMode>
   </BrowserRouter>,
 )
