@@ -21,7 +21,18 @@ function UseAPI(){
                 <pre>{JSON.stringify(data, null, 2)}</pre>
             ) : (
                 <p>Loading...</p>
-            )}
+            )
+            }
+            {/* {
+                data.map((item)=>(
+                    <div key={item.id} style={{border:"1px solid black", margin:"10px", padding:"10px", borderRadius:"5px"}}>
+                        <h2>{item.name}</h2>
+                        <p>Email: {item.email}</p>
+                        <p>Phone: {item.phone}</p>
+                        <p>Address: {item.address}</p>
+                    </div>                                          
+                ))
+            } */}
         </div>
     )
 }

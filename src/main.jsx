@@ -60,11 +60,12 @@ import ValidateUser from './O55_Validation_UseActionState.jsx'
 import Reducer from './O56_UseReducer.jsx'
 import LazyLoading from './O57_Lazy_Loading.jsx'
 import UseAPI from './O58_UseAPI.jsx'
+import ColorMix from './O2_Task_Color_Mixture.jsx'
 createRoot(document.getElementById('root')).render(
  
  <BrowserRouter>
  <StrictMode>
-    <UseAPI/>
+    <ColorMix/>
   </StrictMode>
   </BrowserRouter>,
 )
