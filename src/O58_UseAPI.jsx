@@ -33,7 +33,7 @@ function UseAPI(){
                     </div>                                          
                 ))
             } */}
-        </div>
+        </div >
     )
 }
 
