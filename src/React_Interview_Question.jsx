@@ -270,7 +270,24 @@ const element = React.createElement('h1', null, 'Hello, World!');
 // Answer - if user doesn't provide any value to props then it will show null or empty space , if in props compnent you provide default value then \
 //            in those case that default value will print.
 
+// Question 53 - Can we use if condition inside return of any component?
+// Answer - we don't we if condition in return we use ternary operator.
+
+// Question 54 - Life Cycle of component
+//  ans - 
+
+// Question 55 - Why we use className in component ?
 // 
+
+// Question 56 - Why in component we have only single return element?
+
+// Question 57 - What is HOC ?
+// 
+
+// Question 58 - What is Derived state ?
+
+// 
+
 
 // How does React handle forms and user input?
 // Answer : 

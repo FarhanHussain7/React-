@@ -61,11 +61,12 @@ import Reducer from './O56_UseReducer.jsx'
 import LazyLoading from './O57_Lazy_Loading.jsx'
 import UseAPI from './O58_UseAPI.jsx'
 import ColorMix from './O2_Task_Color_Mixture.jsx'
+import USEOptimistic from './O59_UseOptimistic_Hook.jsx'
 createRoot(document.getElementById('root')).render(
  
  <BrowserRouter>
  <StrictMode>
-    <ColorMix/>
+    <USEOptimistic/>
   </StrictMode>
   </BrowserRouter>,
 )
