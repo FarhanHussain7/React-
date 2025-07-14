@@ -1,4 +1,4 @@
-import Collage from "./Collage";
+import Collage from "./Example/Collage";
 
 function Array(){
 

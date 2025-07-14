@@ -1,4 +1,4 @@
-import Student from "./Student";
+import Student from "../Student";
 
 const Collage=({collage})=>{
     return(

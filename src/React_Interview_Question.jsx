@@ -1,8 +1,3 @@
-// Action - 
-
-
-
-
 // Question 1 - Dependencies and DevDependencies differences 
  // 1. Dependencies are packages that your application needs to run.
  // 2. DevDependencies are packages that are only needed during development and testing.
@@ -305,4 +300,28 @@ const element = React.createElement('h1', null, 'Hello, World!');
 // How do you test React components?
 // What is reconciliation in React?
 
+
+// Reconcilliation - it will comparing the virtual DOM with the real DOM to efficiently update the UI. 
+//  Automating batching - In React, automatic batching is a performance-enhancing feature introduced in React 18 that groups multiple state updates into a single re-render—even if those updates happen asynchronously or outside React event handlers.
+// ⚙️ What Is Automatic Batching?
+// React used to batch updates only inside its own event handlers (like onClick). But with React 18, it now batches updates from:
+// - setTimeout, setInterval
+// - Promises and async/await
+// - Native event listeners
+// - Any other asynchronous operations
+
+
+// useMemo - it will memorize computed value so it will not re-calculate 
+// useCallback - to memorize a function definition to prevent unnessacery re-creations, 
+// useSyncExternalStore - it will subscribe to external , mutable size data source like(redux store or browser APIs) and ensure react component 
+//                          re-rendering when they change.
+
+// props drilling - the passing data through multiple layers of nested components, even if intermidiate components don't need the data
+// useContextAPI -  directly render in any component 
+// HOC - A function that takes a component as a argument and returns a new component with enhanced props or behavior.
+// React.memo - prevent unecessary re-rendring
+// React.Fragment - to group multiple elements without adding an extra node to the DOM. 
+// concurrent rerendering - stop heavy loading for some time
+// RSC - components that allows developers to build UI that span acrros server and client, enabling efficient data fetching and reducing 
+// client-side javascript.
 // 

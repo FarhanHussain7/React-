@@ -40,7 +40,7 @@ import RouterReact from './O39_React_Router.jsx'
 import {BrowserRouter} from 'react-router'
 import BrowserRou from './O40_NavBar.jsx'
 import PageNotFound from './O41_404_pageNotFound.jsx'
-import Collage from './Collage.jsx'
+import Collage from './Example/Collage.jsx'
 import NestedRout from './O42_Nested_Routing.jsx'
 import CollageDetails from './Example/O42_Collage.jsx'
 import LayoutIndex from './O43_Layout_and_Index_Routes.jsx'
@@ -65,6 +65,7 @@ import USEOptimistic from './O59_UseOptimistic_Hook.jsx'
 createRoot(document.getElementById('root')).render(
  
  <BrowserRouter>
+ {/* StrictMode is used to highight potential problem and deprrecated practise in developement mode  */}
  <StrictMode>
     <USEOptimistic/>
   </StrictMode>

@@ -3,7 +3,7 @@ import { Link, Route, Routes } from 'react-router';
 import About from '../../shoping/src/about';
 import NavBar from './Example/O40_NavBar';
 import Page404 from './Example/O41_PageNotFound';
-import Collage from './Collage';
+import Collage from './Example/Collage';
 import CollageDetails from './Example/O42_Collage';
 import Student from './Example/O37_Student';
 import StudentDetails from './Example/O42_Student';
