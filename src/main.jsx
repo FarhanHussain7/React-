@@ -12,7 +12,7 @@ import CheckBox from './O11_Handle_CheckBox.jsx'
 import Radio from './O12_Radio_Button.jsx'
 import HandleData from './O13_Loop_and_Map.jsx'
 import ReuseComp from './O14_Reuse_component.jsx'
-import Clock from './O_Task_O1_Clock.jsx'
+// import Clock from './O_Task_O1_Clock.jsx'
 import Array from './O15_Array_Nested_loop.jsx'
 import Effect from './O16_Hooks_O1_useEffect.jsx'
 import Style from './O19_Style_css.jsx'
@@ -67,7 +67,7 @@ createRoot(document.getElementById('root')).render(
  <BrowserRouter>
  {/* StrictMode is used to highight potential problem and deprrecated practise in developement mode  */}
  <StrictMode>
-    <USEOptimistic/>
+    <CollageDetails/>
   </StrictMode>
   </BrowserRouter>,
 )
