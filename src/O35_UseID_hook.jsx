@@ -32,7 +32,7 @@ function UserD(){
         return(
             <div>
                 <form action="">
-                <label htmlFor={name}>Enter your name</label>
+                <label htmlFor={name}>Enter your name </label> 
                 <input type="text" id={name} placeholder="Enter name"/>
                 <br />
                 <label htmlFor={password}>Enter your Password</label>

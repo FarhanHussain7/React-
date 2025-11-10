@@ -32,6 +32,7 @@ function Updating(){
             <input type="text" onChange={(event)=>Updatecity(event.target.value)} placeholder="Update city" />
             <h1>Name : {Data.name}</h1>
             <h1>Address : {Data.address.city} </h1>
+            <h1>country : {Data.address.country} </h1>
             <h1>Phone no : {Data.phoneno}</h1>
             
         </div>

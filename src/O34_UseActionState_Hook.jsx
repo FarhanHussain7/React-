@@ -6,20 +6,31 @@ import { useActionState } from 'react';
 import {useFormStatus} from 'react-dom'
 function UseActionState(){
 
-    const handleData= async(previousdata, formdata)=>{
+    // This is the handler function that will be called when the form is submitted.
+    // It receives the previous state and the submitted form data.
+    const handleData = async (previousdata, formdata) => {
+        // Extract 'name' and 'password' fields from the submitted form data
         let name = formdata.get('name');
         let password = formdata.get('password');
 
-        await new Promise((reso) => setTimeout(reso,2000))
+        // Simulate a delay of 2 seconds (e.g., mimicking a network request)
+        await new Promise((reso) => setTimeout(reso, 2000));
 
-        if (name && password){
-            return {message:'Data Submitted', name, password}
-        }else{
-            return {error :'Faild to submit data Try again in proper way'}
+        // If both name and password are provided, return a success message with the data
+        if (name && password) {
+            return { message: 'Data Submitted', name, password };
+        } else {
+            // Otherwise, return an error message
+            return { error: 'Failed to submit data. Try again in proper way' };
         }
-    }
+    };
 
-   const [data,action,pending]=useActionState(handleData,undefined);
+    // useActionState is a React hook (likely from a framework like Remix or a custom hook)
+    // It handles form submission and tracks:
+    // - `data`: the result returned from handleData (success or error)
+    // - `action`: a function to trigger the form submission
+    // - `pending`: a boolean indicating if the submission is still in progress
+    const [data, action, pending] = useActionState(handleData, undefined);
         return(
             <div>
                 <h1>UseActionState Program</h1>

@@ -3,6 +3,8 @@ import User, { College, Wrapper } from "./User";
 
 function Props(){
 
+    const [student, setState]=useState();
+
     let Username = "Farhan Hussain";
     let age = 24;
     let email = "farhanhussain@gmail.com";
@@ -20,9 +22,7 @@ function Props(){
     }
 
     let Collegename = ["IET","DU","IIT","HI_TECH"];
-
-    const [student, setState]=useState();
-
+    
     return(
         <div>
             <h1>This is Props </h1>

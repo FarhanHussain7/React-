@@ -10,7 +10,6 @@ function Toggle() {
               display? <h1>Farhan Hussan</h1>:null
             //    display? <Headers/>:null
        } 
-
         </div>
     )
 }

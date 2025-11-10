@@ -41,8 +41,10 @@ function UnCtrlComponent(){
                 <br /><br />
                 <button>submit</button>
             </form>
+
             <hr />
-             <h1>UnControlled Component with Ref </h1>
+            
+             <h1>Controlled Component with Ref </h1>
             <form action="" method="post" onSubmit={handleEventRef}>
                 <input type="text" ref={nameRef} id="nameRef"  placeholder="Enter your name" />
                 <br /><br />

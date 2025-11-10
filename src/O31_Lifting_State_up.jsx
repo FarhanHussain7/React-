@@ -1,4 +1,5 @@
-// when one child inherit the second child then the parent fetch data from one child and send to second child so the parent is act as lifting up state
+// when one child inherit the second child then the parent fetch data from one child and send to second child 
+// so the parent is act as lifting up state
 
 import Adduser from "./Example/O30_AddUser";
 import Displayuser from "./Example/O30_Displayuser";

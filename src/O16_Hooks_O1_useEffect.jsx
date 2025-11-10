@@ -1,6 +1,16 @@
 // hooks can not be used in class component
 // useState , useEffect, useContext, useRef , useReducer
 //  it is used state, life cycle, data handle in functional component
+// - Hooks: Functions that let you use state and lifecycle features in functional components.
+// - useState: Manages local component state.
+// - useEffect: Handles side effects like data fetching or subscriptions.
+// - useContext: Shares global data across components without prop drilling.
+// - useRef: Accesses and persists mutable values without re-rendering.
+// - useReducer: Manages complex state logic with a reducer function.
+// - Functional Components: React components defined as functions, enhanced by hooks for state and lifecycle.
+// - Class Components: Older React components using this.state and lifecycle methods—hooks can't be used here.
+// - Side Effects: External operations (e.g., API calls, timers) managed by useEffect
+
 
 import { useEffect, useState } from "react";
 import HandleProp from "./O17_Handle_Props_with_hooks";

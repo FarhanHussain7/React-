@@ -8,8 +8,8 @@ const ReuseUser =({data})=>{
             width:"400px"
         }}>
             <h1>Name : <span style={{color:"green"}}>{data.name}</span></h1>
-            <h1>Email : <span style={{color:"green"}}>{data.email}</span></h1>
-            <h1>Age : <span style={{color:"green"}}>{data.age}</span></h1>
+            <h1>Email : <span style={{color:"red"}}>{data.email}</span></h1>
+            <h1>Age : <span style={{color:"blue"}}>{data.age}</span></h1>
         </div>
     )
 }

@@ -25,9 +25,9 @@ function UseRef(){
     return(
         <div>
             <h1>UseRef Hook</h1>
-            <button onClick={Togglehandler}>Toggle</button>
+            <button onClick={Togglehandler} style={{color:"blue", border:"3px solid black", width:"150px"}}>Toggle</button>
             <input ref={inputref} type="text" placeholder="Enter your name" />
-            <button onClick={Inputhandler}>focus on input field</button>
+            <button onClick={Inputhandler} style={{color:"green", border:"3px solid green", width:"150px"}}>focus on input field</button>
 
             <h1 ref={headingRef}>Code step by step </h1>
             <button onClick={h1handler}>Heading Handler</button>

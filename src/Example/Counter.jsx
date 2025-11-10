@@ -1,4 +1,5 @@
 import { useState } from "react"
+// import style from './css/Css_profile.module.css';
 
 const Counter=()=>{
     const [count, setCount]=useState(0);
@@ -15,8 +16,9 @@ const Counter=()=>{
     return(
         <div>
             <h1>Counter :{count}</h1>
-            <button onClick={IncreaseCount}>Count Increase</button>
-            <button onClick={DecreseCount}>Count Decresed</button>
+            <button style={{border:"2px solid blue", color:"green", margin:"10px"}} onClick={IncreaseCount}>Count Increase</button>
+            <br/>
+            <button style={{border:"2px solid red", color:"red", margin:"10px"}} onClick={DecreseCount}>Count Decresed</button>
         </div>
     )
 }

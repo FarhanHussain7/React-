@@ -2,6 +2,9 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import ImportExport from './O1_Import_Export.jsx'
+import ObjectData from './O2_ObjectData.jsx'
+import ArrayValue from './O3_ArrayData.jsx'
 import State from './O5_State.jsx'
 import Toggle from './O6_Toggle_or_Hide.jsx'
 import MultiCond from './O7_Multiple_Condition.jsx'
@@ -60,14 +63,14 @@ import ValidateUser from './O55_Validation_UseActionState.jsx'
 import Reducer from './O56_UseReducer.jsx'
 import LazyLoading from './O57_Lazy_Loading.jsx'
 import UseAPI from './O58_UseAPI.jsx'
-import ColorMix from './O2_Task_Color_Mixture.jsx'
 import USEOptimistic from './O59_UseOptimistic_Hook.jsx'
+import CssMod from './O4_CssModule.jsx'
 createRoot(document.getElementById('root')).render(
  
  <BrowserRouter>
  {/* StrictMode is used to highight potential problem and deprrecated practise in developement mode  */}
  <StrictMode>
-    <CollageDetails/>
+    <LayoutIndex/>
   </StrictMode>
   </BrowserRouter>,
 )

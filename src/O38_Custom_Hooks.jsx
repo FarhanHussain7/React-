@@ -10,7 +10,7 @@ function Customhook(){
             <h1>Custom Hooks</h1>
             <button onClick={toogleview}>Toggle Heading</button>
             <button onClick={()=>toogleview(false)}>Hide button</button>
-            <button onClick={()=>toogleview(true)}>Show Hide</button>
+            <button onClick={()=>toogleview(true)}>Show button</button>
 
             {
                 value?<h1>custom hooks in React js</h1>: null
