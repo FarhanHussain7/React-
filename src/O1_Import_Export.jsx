@@ -1,7 +1,6 @@
 import UserComponent,{UserKey} from "./Example/Import_Export";
 
 function ImportExport(){
-  
   return (
     <div>
     <UserComponent/>
@@ -10,5 +9,4 @@ function ImportExport(){
   </div>
   )
 }
-
 export default ImportExport;

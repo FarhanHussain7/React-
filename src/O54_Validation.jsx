@@ -25,7 +25,6 @@ const SetPasswordData = (e) => {
     const regex = /^[A-Z0-9]+$/i;
         if (regex.test(e.target.value)) {
              setPasswordError();
-            
         } else {
          setPasswordError("Password must be at valid characters long");
         }
